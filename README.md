@@ -1,5 +1,5 @@
-# IOX-77 Devboard
-IOX-77 : An ESP32 based SuperBoard (75+ GPIOs)
+# IOX-77 : An ESP32 based Devboard with 75+ GPIOs available (ESP32 Core with 5 CH32V003 MCUs)
+
 
 The IOX-77 is an ESP32-C3-MINI-1-N4 based development board that comes with a lot more GPIOs than typical ESP32 devboards. The Main ESP32 core communicates via I2C with 5 cheap RISC-V MCUs (5 CH32V003). This way, each CH32 adds 14 more GPIOs. It is an upgraded ESP32 devboard, gathering the computational power of the ESP32 and the many GPIOs offered by all the CH32
 
