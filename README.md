@@ -10,6 +10,9 @@ Both the ESP32 and the 5 CH32V003 runs at 3.3V, but among the 75 available GPIOs
 Thanks to the two 2x25 1.27mm pitched headers, shields can easily be plugged onto the IOX-7 (obviously, they need to be custom shields with the right two 1.27mm 2x25 male headers)
 Modules can also be connected to the devboard via I2C or UART (one 6P .5mm FPC is dedicated to these protocols). A 40 pins FPC is another way of accessing some of the GPIOs
 
+<img width="1920" height="837" alt="IOX_77_RENDER_01_CG_08" src="https://github.com/user-attachments/assets/d62e11c0-d8d5-4f82-9be2-5b33600da0f1" />
+
+
 # Key features 
 - **ESP32 C3** main Core
 - **x5 CH32V003** MCUs
@@ -29,16 +32,60 @@ Modules can also be connected to the devboard via I2C or UART (one 6P .5mm FPC i
   1. If one CH32 isn't responding (when the ESP32 can't communicate with this specific CH32 via I²C for example), the ESP32 can reboot the faulty MCU
   2. When the devboard enters low power mode and if the CH32v003 aren't needed, they can go to sleep mode when the I²C master (ESP32) asks for it (each CH32V003 only draws a few µAmps in sleep mode). When the ESP32 needsthem back, it simply need to pull down the NRST pins to reset the MCUs
 
+# PCB design
+This 4 Layer PCB has been designed in EASYEDA (Pro edition).
+
+# Firmware
+I'm planning to code an Arduino® library for the ESP32 C3 in order to easily control the *'external'* GPIOs (handling I2C com with the 5 CH32s) in order to be able to use the GPIOs like we do with any devboard (pinMode(), digitalWrite(), digitalRead(), analogRead(), analogWrite() functions ...). I'll also need to programm the CH32, and I think I'll use the MounRiver Studio to get full command on these MCUs (the arduino IDE doesn't support really well this chip). I did nothing on the sofware side for the moment, because programming CH32 will be a completely different story, and the only way to code the sofware right is by doing trials and errors on the devboard (once I'll receive the board, and that the firmware is working, I'll update it on Github)
      
 # Schematic
 
 <img src="IOX_77_Schematic_V1.0.svg" alt="SCHEMATIC" width="2300"/>
 
 # PCB Layout
+
+Top View
+
+<img width="1339" height="824" alt="BOARD PCB 10 5" src="https://github.com/user-attachments/assets/233ffd4e-ea10-4c2c-8b20-4e1bea3b999d" />
+
+
 Top Copper Layer (+3.3V plane)
+
+<img width="1237" height="798" alt="BOARD PCB 10 1" src="https://github.com/user-attachments/assets/c9dc48fe-b494-439b-91c7-01c78ac2e259" />
+
+
 
 Inner Layer 1
 
+<img width="1227" height="770" alt="BOARD PCB 10 2" src="https://github.com/user-attachments/assets/2cb781c3-a526-4824-98b9-b39ccc1110ce" />
+
+
+
 Inner Layer 2
 
+<img width="1216" height="763" alt="BOARD PCB 10 3" src="https://github.com/user-attachments/assets/bcf8257e-5364-4438-9e06-86c1cf5801a2" />
+
+
+
 Bottom Copper Layer (GND plane)
+
+<img width="1210" height="772" alt="BOARD PCB 10 4" src="https://github.com/user-attachments/assets/b486dc0d-43c8-4022-bbd9-d4baf120a04e" />
+
+
+# Rendering (Fusion 360)
+
+Have a look at these cool renders made with Fusion 360:
+
+<img width="1920" height="837" alt="IOX_77_RENDER_01_CG_08" src="https://github.com/user-attachments/assets/1f25852f-8b03-454b-8c86-36ddf2a0fbca" />
+
+<img width="1920" height="837" alt="IOX77_RENDER_02_CG" src="https://github.com/user-attachments/assets/48ae2b90-0785-4560-926c-5d2da26dca57" />
+
+<img width="1920" height="837" alt="IOX_77_RENDER_CG_03" src="https://github.com/user-attachments/assets/d77046cb-582d-46f3-a00a-c66721cab36b" />
+
+<img width="1920" height="837" alt="IOX_77_RENDER_CG_05" src="https://github.com/user-attachments/assets/0b066caf-f63f-442d-a5f7-47c2a96f923b" />
+
+<img width="1920" height="837" alt="IOX_77_RENDER_CG_06" src="https://github.com/user-attachments/assets/596f46d0-b785-42db-b896-d8f85ea5c49c" />
+
+<img width="1920" height="837" alt="IOX_77_RENDER_01_CG_9" src="https://github.com/user-attachments/assets/15b3b292-6a16-431a-a059-05ffaddd5f87" />
+
+
