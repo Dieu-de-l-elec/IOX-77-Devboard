@@ -1,5 +1,9 @@
 # IOX-77 : An ESP32 based Devboard with 75 GPIOs available (ESP32 Core with 5 CH32V003 MCUs)
 
+<p align="center">
+  <img width="130" height="200" alt="IOX-77 LOGO" src="https://github.com/user-attachments/assets/12215a36-7f21-48f5-842b-96980f68999e" />
+</p>
+
 The IOX-77 is an ESP32-C3-MINI-1-N4 based development board that comes with a lot more GPIOs than typical ESP32 devboards. The Main ESP32 core communicates via I2C with 5 cheap RISC-V MCUs (5 CH32V003). This way, each CH32 adds 14 more GPIOs. It is an upgraded ESP32 devboard, gathering the computational power of the ESP32 and the many GPIOs offered by all the CH32
 
 This board comes with more IOs than the Arduino Mega, while being cheaper, smaller, and having WiFi / Bluetooth capabilities. 
@@ -9,11 +13,6 @@ Both the ESP32 and the 5 CH32V003 runs at 3.3V, but among the 75 available GPIOs
 
 Thanks to the two 2x25 1.27mm pitched headers, shields can easily be plugged onto the IOX-7 (obviously, they need to be custom shields with the right two 1.27mm 2x25 male headers)
 Modules can also be connected to the devboard via I2C or UART (one 6P .5mm FPC is dedicated to these protocols). A 40 pins FPC is another way of accessing some of the GPIOs
-
-<p align="center">
-  <img width="130" height="200" alt="IOX-77 LOGO" src="https://github.com/user-attachments/assets/12215a36-7f21-48f5-842b-96980f68999e" />
-</p>
-
 
 <img width="1920" height="837" alt="IOX_77_RENDER_01_CG_08" src="https://github.com/user-attachments/assets/d62e11c0-d8d5-4f82-9be2-5b33600da0f1" />
 
