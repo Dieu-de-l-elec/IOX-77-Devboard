@@ -33,7 +33,7 @@ Modules can also be connected to the devboard via I2C or UART (one 6P .5mm FPC i
 - **6P .5mm FPC connector**: I²C, UART, GND and +3.3V pins
 - **2x8 common 2.54mm pitched male header for quick prototyping** including x2 +3.3V, x1 +5V, x2 GND, TX and RX (ESP32), SCL and SDA, EN pin (ESP32), x2 GPIOs (ESP32), x2 Analog pins and x2 5V tolerant IO pins (CH32V003 MCU #D)
 - **8P .5mm FPC connector** used for programming the 5 CH32V003. Each MCU has a SWIO pin. All the CH32Vs can be programmed one by one with a dedicated programmer (WCH link-E)
-- Each NRST pin of the CH32s are controlled by the ESP32. It serves 2 purposes:
+- Each NRST pin of the CH32s is controlled by the ESP32. It serves 2 purposes:
   1. If one CH32 isn't responding (when the ESP32 can't communicate with this specific CH32 via I²C for example), the ESP32 can reboot the faulty MCU
   2. When the devboard enters low power mode and if the CH32v003 aren't needed, they can go to sleep mode when the I²C master (ESP32) asks for it (each CH32V003 only draws a few µAmps in sleep mode). When the ESP32 needsthem back, it simply need to pull down the NRST pins to reset the MCUs
 
