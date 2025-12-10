@@ -28,9 +28,11 @@ Modules can also be connected to the devboard via I2C or UART (one 6P .5mm FPC i
 - Each NRST pin of the CH32s are controlled by the ESP32. It serves 2 purposes:
   1. If one CH32 isn't responding (when the ESP32 can't communicate with this specific CH32 via I²C for example), the ESP32 can reboot the faulty MCU
   2. When the devboard enters low power mode and if the CH32v003 aren't needed, they can go to sleep mode when the I²C master (ESP32) asks for it (each CH32V003 only draws a few µAmps in sleep mode). When the ESP32 needsthem back, it simply need to pull down the NRST pins to reset the MCUs
- 
+
+     
 # Schematic
 
+<img src="IOX_77_Schematic_V1.0.svg" alt="SCHEMATIC" width="2300"/>
 
 # PCB Layout
 Top Copper Layer (+3.3V plane)
