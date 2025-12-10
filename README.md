@@ -26,7 +26,7 @@ Modules can also be connected to the devboard via I2C or UART (one 6P .5mm FPC i
 - **USB-C** for programming / powering the board
 - **relatively small devboard**: 71mm x 42mm (slighly longer than the Arduino® UNO but way smaller than the Arduino® MEGA)
 - **Wifi/Bluetooth** calpabilities
-- **Onboard 3.3V LDO** [TLV75733PDBVR] up to 1A, input 4V - 5.5V
+- **Onboard 3.3V LDO Voltage regulator** [TLV75733PDBVR] up to 1A, input 4V - 5.5V
 - **Multiple Ways of Powering the devboard**: USB-C 5V IN, solderable pads +5V IN or +3.3V IN, Power pins on the headers *(it's possible to power the devboard via a shield)*
 - **ALL Pins (GPIOs, PWR pins, UART, I²C, ESP32 ENABLE and BOOT pins) are accessible with two 2x25 1.27mm pitched female headers**
 - **40P .5mm FPC connector** for accessing 32 of the GPIOs (coming out of the CH32s), with GND and +3.3V pins
