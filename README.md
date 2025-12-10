@@ -10,7 +10,13 @@ Both the ESP32 and the 5 CH32V003 runs at 3.3V, but among the 75 available GPIOs
 Thanks to the two 2x25 1.27mm pitched headers, shields can easily be plugged onto the IOX-7 (obviously, they need to be custom shields with the right two 1.27mm 2x25 male headers)
 Modules can also be connected to the devboard via I2C or UART (one 6P .5mm FPC is dedicated to these protocols). A 40 pins FPC is another way of accessing some of the GPIOs
 
+<p align="center">
+  <img width="130" height="200" alt="IOX-77 LOGO" src="https://github.com/user-attachments/assets/12215a36-7f21-48f5-842b-96980f68999e" />
+</p>
+
+
 <img width="1920" height="837" alt="IOX_77_RENDER_01_CG_08" src="https://github.com/user-attachments/assets/d62e11c0-d8d5-4f82-9be2-5b33600da0f1" />
+
 
 
 # Key features 
