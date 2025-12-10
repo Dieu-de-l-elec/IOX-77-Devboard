@@ -45,7 +45,7 @@ I'm planning to code an Arduino® library for the ESP32 C3 in order to easily co
      
 # Schematic
 
-<img src="IOX_77_Schematic_V1.0.svg" alt="SCHEMATIC" width="2300"/>
+<img src="PCB/IOX_77_Schematic_V1.0.svg" alt="SCHEMATIC" width="2300"/>
 
 # PCB Layout
 
