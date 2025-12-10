@@ -28,12 +28,12 @@ Qty, Value, Component, Price
 1, TYPE-C 16PIN 2MD(073) ,USB C,
 
 ,,,
-1,WCH-linkE,, 5$ (Aliexpress)
-5,PCBs ,, 7$ + 1.5$(shipping)
+1,WCH-linkE, (Aliexpress), 5$
+5,PCBs ,, 7$ + 1.5$ (shipping)
 1,Stencil,, 3$
 
 ,IOX-77 Bill,,
-,WCH-linkE,,  5$ (Aliexpress)
+,WCH-linkE,(Aliexpress),  5$ 
 ,JLCPCB,, 11.50$
 ,LCSC,, 41.80$
 ,,         TOTAL,      58.30$
