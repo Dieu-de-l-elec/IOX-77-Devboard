@@ -76,6 +76,12 @@ Bottom Copper Layer (GND plane)
 
 <img width="1210" height="772" alt="BOARD PCB 10 4" src="https://github.com/user-attachments/assets/b486dc0d-43c8-4022-bbd9-d4baf120a04e" />
 
+# BOM
+
+There are parts from LCSC (components), JLCPCB (PCBs and Stencil) and Aliexpress (WCH LinkE)
+
+<img width="657" height="854" alt="BOM IOX77" src="https://github.com/user-attachments/assets/b57f738d-a6af-4347-9ddc-1705eafcbf91" />
+
 
 # Rendering (Fusion 360)
 
@@ -92,5 +98,6 @@ Have a look at these cool renders made with Fusion 360:
 <img width="1920" height="837" alt="IOX_77_RENDER_CG_06" src="https://github.com/user-attachments/assets/596f46d0-b785-42db-b896-d8f85ea5c49c" />
 
 <img width="1920" height="837" alt="IOX_77_RENDER_01_CG_9" src="https://github.com/user-attachments/assets/15b3b292-6a16-431a-a059-05ffaddd5f87" />
+
 
 
