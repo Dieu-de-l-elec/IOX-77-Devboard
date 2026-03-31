@@ -152,5 +152,3 @@ uint32_t  IOX_digitalReadBuffer (uint8_t pin) {
   return reading;
 
 }
-
-*/
