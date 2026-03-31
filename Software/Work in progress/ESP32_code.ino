@@ -1,3 +1,7 @@
+/* C GAILLARD - Dieu de l'élec
+This is the code for the the ESP32 as master (advancement 1), it's still a WIP! the final code will be available soon...
+  */
+
 #include "driver/i2c.h"
 
 #define I2C_MASTER_SCL_IO 8
