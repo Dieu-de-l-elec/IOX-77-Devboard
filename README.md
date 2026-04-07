@@ -49,32 +49,23 @@ I'm planning to code an Arduino® library for the ESP32 C3 in order to easily co
 
 # PCB Layout
 
-Top View
-
-<img width="1339" height="824" alt="BOARD PCB 10 5" src="https://github.com/user-attachments/assets/233ffd4e-ea10-4c2c-8b20-4e1bea3b999d" />
+<img width="2226" height="1448" alt="PCB EDA" src="https://github.com/user-attachments/assets/695c4f87-e626-4112-a020-438b0de31b02" />
 
 
 Top Copper Layer (+3.3V plane)
-
-<img width="1237" height="798" alt="BOARD PCB 10 1" src="https://github.com/user-attachments/assets/c9dc48fe-b494-439b-91c7-01c78ac2e259" />
-
+<img width="2200" height="1358" alt="IOX_77 PCB V1 1 top" src="https://github.com/user-attachments/assets/b97f1ac9-e7d8-4c9a-a8b1-1a49f8eba600" />
 
 
 Inner Layer 1
-
-<img width="1227" height="770" alt="BOARD PCB 10 2" src="https://github.com/user-attachments/assets/2cb781c3-a526-4824-98b9-b39ccc1110ce" />
-
-
+<img width="2086" height="1306" alt="IOX_77 PCB V1 1 inner 1" src="https://github.com/user-attachments/assets/ca975bc6-4dcd-4d57-895c-f65fe5e092fa" />
 
 Inner Layer 2
 
-<img width="1216" height="763" alt="BOARD PCB 10 3" src="https://github.com/user-attachments/assets/bcf8257e-5364-4438-9e06-86c1cf5801a2" />
 
-
+<img width="2128" height="1338" alt="IOX_77 PCB V1 1 inner 2" src="https://github.com/user-attachments/assets/57292744-295b-415c-b06a-e4af361e9133" />
 
 Bottom Copper Layer (GND plane)
-
-<img width="1210" height="772" alt="BOARD PCB 10 4" src="https://github.com/user-attachments/assets/b486dc0d-43c8-4022-bbd9-d4baf120a04e" />
+<img width="2134" height="1356" alt="IOX_77 PCB V1 1 bottom" src="https://github.com/user-attachments/assets/1d49d0b0-1933-4933-a770-fb65bce12696" />
 
 # BOM
 
