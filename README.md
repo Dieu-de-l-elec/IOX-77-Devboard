@@ -76,7 +76,6 @@ There are parts from LCSC (components), JLCPCB (PCBs and Stencil) and Aliexpress
 
 # Rendering (Fusion 360)
 
-Have a look at these cool renders made with Fusion 360:
 
 <img width="1920" height="837" alt="IOX_77_RENDER_01_CG_08" src="https://github.com/user-attachments/assets/1f25852f-8b03-454b-8c86-36ddf2a0fbca" />
 
