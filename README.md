@@ -35,14 +35,15 @@ Modules can also be connected to the devboard via I2C or UART (one 6P .5mm FPC i
 - **8P .5mm FPC connector** used for programming the 5 CH32V003. Each MCU has a SWIO pin. All the CH32Vs can be programmed one by one with a dedicated programmer (WCH link-E)
 - Each NRST pin of the CH32s is controlled by the ESP32. It serves 2 purposes:
   1. If one CH32 isn't responding (when the ESP32 can't communicate with this specific CH32 via I²C for example), the ESP32 can reboot the faulty MCU
-  2. When the devboard enters low power mode and if the CH32v003 aren't needed, they can go to sleep mode when the I²C master (ESP32) asks for it (each CH32V003 only draws a few µAmps in sleep mode). When the ESP32 needsthem back, it simply need to pull down the NRST pins to reset the MCUs
+  2. When the devboard enters low power mode and if the CH32v003 aren't needed, they can go to sleep mode when the I²C master (ESP32) asks for it (each CH32V003 only draws a few µAmps in sleep mode). When the ESP32 needs them back, it simply need to pull down the NRST pins to reset the MCUs
 
 # PCB design
 This 4 Layer PCB has been designed in EASYEDA (Pro edition).
 
 # Firmware
-I'm planning to code an Arduino® library for the ESP32 C3 in order to easily control the *'external'* GPIOs (handling I2C com with the 5 CH32s) in order to be able to use the GPIOs like we do with any devboard (pinMode(), digitalWrite(), digitalRead(), analogRead(), analogWrite() functions ...). I'll also need to programm the CH32, and I think I'll use the MounRiver Studio to get full command on these MCUs (the arduino IDE doesn't support really well this chip). I did nothing on the sofware side for the moment, because programming CH32 will be a completely different story, and the only way to code the sofware right is by doing trials and errors on the devboard (once I'll receive the board, and when the firmware is working, I'll update it on Github)
-     
+I'm working on an Arduino® library for the ESP32 C3 in order to easily control the *'external'* GPIOs (handling I2C com with the 5 CH32s) in order to be able to use the GPIOs like we do with any devboard (pinMode(), digitalWrite(), digitalRead(), analogRead(), analogWrite() functions ...). The CH32 can be programmed using MounRiver Studio and even though I've made a ready to use software to make the CH32 act as smart GPIO expander, the main advantage of this setup is the ability to run custom software, macros, on the CH32, to free the main MCU, ESP32, from some tasks.
+
+
 # Schematic
 
 <img src="PCB/IOX_77_schematic V1.1.svg" alt="SCHEMATIC" width="2300"/>
@@ -67,12 +68,6 @@ Inner Layer 2
 Bottom Copper Layer (GND plane)
 <img width="2134" height="1356" alt="IOX_77 PCB V1 1 bottom" src="https://github.com/user-attachments/assets/1d49d0b0-1933-4933-a770-fb65bce12696" />
 
-# BOM
-
-There are parts from LCSC (components), JLCPCB (PCBs and Stencil) and Aliexpress (WCH LinkE)
-
-<img width="657" height="854" alt="BOM IOX77" src="https://github.com/user-attachments/assets/b57f738d-a6af-4347-9ddc-1705eafcbf91" />
-
 
 # Rendering (Fusion 360)
 
@@ -89,5 +84,18 @@ There are parts from LCSC (components), JLCPCB (PCBs and Stencil) and Aliexpress
 
 <img width="1920" height="837" alt="IOX_77_RENDER_01_CG_9" src="https://github.com/user-attachments/assets/15b3b292-6a16-431a-a059-05ffaddd5f87" />
 
+
+# BOM
+
+🏗️ coming soon ...
+
+# Build
+![BUILD IMG resoldered (1)](https://github.com/user-attachments/assets/6de6897d-e76f-4781-aba1-eee7199d8a09)
+
+![BUILD IMG resoldered (2)](https://github.com/user-attachments/assets/d117a234-8c04-404b-bcf0-f39524810ccc)
+
+![BUILD IMG resoldered (3)](https://github.com/user-attachments/assets/ddf4de89-36b2-4755-8b48-101588168604)
+
+![BUILD IMG resoldered (5)](https://github.com/user-attachments/assets/68482628-d7f4-4bc6-9606-5b4c283e5079)
 
 
