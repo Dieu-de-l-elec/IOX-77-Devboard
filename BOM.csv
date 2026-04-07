@@ -1,6 +1,6 @@
 Qty, Value, Component, Price
 
-1, ESP32-C3-MINI-1-N4 MCU, QFN20,
+1, ESP32-C3-MINI-1-N4 MCU, MCU,
 11, 100nF ,C 0603,
 1, 10nF ,C 0603,
 1, 1µF ,C 0603,
