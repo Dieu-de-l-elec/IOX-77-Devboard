@@ -17,7 +17,7 @@ This board comes with more IOs than the Arduino Mega, while being cheaper, small
 Unlike basic GPIO expanders, each CH32V003 can be programmed to execute a specific task in parallel with the ESP32. (the CH32V003 has 16KB of FLASH). It's like a 6 core configuration: 6 tasks can run at the same time!
 Both the ESP32 and the 5 CH32V003 runs at 3.3V, but among the 75 available GPIOs, 10 are 5.0V tolerant.
 
-Thanks to the two 2x25 1.27mm pitched headers, shields can easily be plugged onto the IOX-7 (obviously, they need to be custom shields with the right two 1.27mm 2x25 male headers)
+Thanks to the two 2x25 1.27mm pitched headers, shields can easily be plugged onto the IOX-77 (obviously, they need to be custom shields with the right two 1.27mm 2x25 male headers)
 Modules can also be connected to the devboard via I2C or UART (one 6P .5mm FPC is dedicated to these protocols). A 40 pins FPC is another way of accessing some of the GPIOs
 
 
