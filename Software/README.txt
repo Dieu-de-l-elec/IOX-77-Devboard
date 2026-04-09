@@ -1,3 +1,0 @@
-Final code coming soon... (I'm currently on Advancement 1)
-
-I'm currently working on an Arduino® library for the ESP32 C3 in order to easily control the 'external' GPIOs (handling I2C com with the 5 CH32s) in order to be able to use the GPIOs like we do with any devboard (pinMode(), digitalWrite(), digitalRead(), analogRead(), analogWrite() functions ...). The CH32 can be programmed using MounRiver Studio and even though I've made a ready to use software to make the CH32 act as smart GPIO expander, the main advantage of this setup is the ability to run custom software, macros, on the CH32, to free the main MCU, ESP32, from some tasks.
