@@ -62,7 +62,8 @@ then the ESP32 can go to light sleep as usual: `esp_light_sleep_start();`
 ## Accessing the pins:
 each GPIO can be called by X_PYZ, where X is the CH32 (from A to E) and PXY is the pin name (like PC0 or PD4).
 
-for example: `A_PA1`, `E_PD6` or `B_PC0`
+for example: `A_PA1`, `E_PD6` or `B_PC0`.
+
 refer to the PINOUT pdf.
 
 Each CH32 comes with a PWM on board orange LED, which can be accessed by `X_LED_BUILTIN`, from `A_LED_BUILTIN` to `E_LED_BUILTIN`
