@@ -67,6 +67,6 @@ refer to the PINOUT pdf.
 
 Each CH32 comes with a PWM on board orange LED, which can be accessed by `X_LED_BUILTIN`, from `A_LED_BUILTIN` to `E_LED_BUILTIN`
 ## pinModes states available:
-the usual `INPUT`, `OUTPUT`, `INPUT_PULLUP`, `INPUT_PULLDOWN`
+The usual `INPUT`, `OUTPUT`, `INPUT_PULLUP`, `INPUT_PULLDOWN`
 and `ANALOG_IN` (required to initialize ADC), as well as the less common `OUTPUT_OPEN_DRAIN`, `ALTERNATE_FUNCT_OD`, `ALTERNATE_FUNCT_PP`
 
