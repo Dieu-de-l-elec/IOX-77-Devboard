@@ -8,6 +8,10 @@ The current code for each CH32 takes ~51% of RAM and ~44% of FLASH, which let en
 
 ## IOX.h library: Some explanations
 
+first to initialize I²C with the CH32s:
+
+`IOX.begin();`
+
 There are quite a few similar functions available to command the GPIOs:
 
 
@@ -61,6 +65,7 @@ each GPIO can be called by X_PYZ, where X is the CH32 (from A to E) and PXY is t
 for example: `A_PA1`, `E_PD6` or `B_PC0`
 refer to the PINOUT pdf.
 
+Each CH32 comes with a PWM on board orange LED, which can be accessed by `X_LED_BUILTIN`, from `A_LED_BUILTIN` to `E_LED_BUILTIN`
 ## pinModes states available:
 the usual `INPUT`, `OUTPUT`, `INPUT_PULLUP`, `INPUT_PULLDOWN`
 and `ANALOG_IN` (required to initialize ADC), as well as the less common `OUTPUT_OPEN_DRAIN`, `ALTERNATE_FUNCT_OD`, `ALTERNATE_FUNCT_PP`
