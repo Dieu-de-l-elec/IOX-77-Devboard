@@ -2,7 +2,7 @@
 
 The final code is now available, with the Arduino library for the ESP32. I keep the code on advancement 1 and 2 (WIP 1 and WIP 2) for archive. 
 
-The Arduino® library  IOX.h for the ESP32 C3 make the use of this devboard easy, controlling the 'external' GPIOs (handling I2C com with the 5 CH32s) like we do with any other devboard (pinMode(), digitalWrite(), digitalRead(), analogRead(), analogWrite() functions ...). The CH32 can be programmed using MounRiver Studio and even though I've made a ready to use software to make the CH32 act as smart GPIO expander, the main advantage of this setup is the ability to run custom software, macros, on the CH32, to free the main MCU, ESP32, from some tasks.
+The Arduino® library  IOX.h for the ESP32 C3 make the use of this devboard easy, controlling the 'external' GPIOs (handling I2C com with the 5 CH32s) like we do with any other devboard (`pinMode()`, `digitalWrite()`, `digitalRead()`, `analogRead()`, `analogWrite()` functions ...). The CH32 can be programmed using MounRiver Studio and even though I've made a ready to use software to make the CH32 act as smart GPIO expander, the main advantage of this setup is the ability to run custom software, macros, on the CH32, to free the main MCU, ESP32, from some tasks.
 
 The current code for each CH32 takes ~51% of RAM and ~44% of FLASH, which let enough space for the user to implement custom macros that can run on an CH32 while the ESP32 can do more important things.
 
