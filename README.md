@@ -100,7 +100,40 @@ Bottom Copper Layer (GND plane)
 
 # BOM
 
-🏗️ coming soon ...
+Qty	| Part	| Value | link
+--- | --- | --- | ---
+1|ESP32-C3-MINI-1-N4 MCU||https://www.lcsc.com/product-detail/C2838502.html
+11|MLCC 0603|100nF|https://www.lcsc.com/product-detail/C66501.html
+1|MLCC 0603|10nF|https://www.lcsc.com/product-detail/C519406.html
+1|MLCC 0603|1µF |https://www.lcsc.com/product-detail/C1592.html
+1|MLCC 0805|10µF |https://www.lcsc.com/product-detail/C1713.html
+2|TVS diode SOD882 LESD8D3.3CAT5G|3.3V|https://www.lcsc.com/product-detail/C5563754.html
+1|DIODE SOD123 1N5819||https://www.lcsc.com/product-detail/C82544.html
+1|FPC 6 PINs FPC-05F-6PH20||https://www.lcsc.com/product-detail/C2856796.html
+1|FPC 8 PINs FPC-05F-8PH20||https://www.lcsc.com/product-detail/C2856797.html
+1|FPC 40 PINs FPC-05F-40PH20||https://www.lcsc.com/product-detail/C2856812.html
+1|MALE HEADER HDR-M 2.54 2x8|2.54mm|https://www.lcsc.com/product-detail/C492425.html
+5|LED 0603 XL-1608UOC-06||C965800|https://www.lcsc.com/product-detail/C965800.html
+1|P CHANNEL MOSFET SI2393DS-T1-GE3||https://www.lcsc.com/product-detail/C5273032.html
+10|Resistor 0402|10K|https://www.lcsc.com/product-detail/C2906861.html
+2|Resistor 0402|22|https://www.lcsc.com/product-detail/C2929994.html
+2|Resistor 0402|5.1K|https://www.lcsc.com/product-detail/C2906874.html
+10|Resistor 0402|1K|https://www.lcsc.com/product-detail/C2906864.html
+1|Resistor 0402|499K|https://www.lcsc.com/product-detail/C2998054.html
+1|Resistor 0402|100K|https://www.lcsc.com/product-detail/C2906859.html
+2|PUSH BUTTON TS-1075S-A1B2-D4||https://www.lcsc.com/product-detail/C492872.html
+3|TVS DIODE SOD523 LESD5D5.0CT1G|5V|https://www.lcsc.com/product-detail/C5199850.html
+2|MALE HEADER HC-PM127-4.3H-2x25PS|1.27mm|https://www.lcsc.com/product-detail/C27985226.html
+1|LDO REGULATOR TLV75733PDBVR|3.3V|https://www.lcsc.com/product-detail/C485517.html
+1|IDEAL DIODE CONTROLLER DZDH0401DW-7||https://www.lcsc.com/product-detail/C3235552.html
+5|CH32V003F4U6 MCU [SLAVES]||https://www.lcsc.com/product-detail/C5299908.html
+1|USB Connector TYPE-C 16PIN 2MD(073)|| https://www.lcsc.com/product-detail/C2765186.html
+---|---|---|---
+1|WCH-linkE||(Aliexpress - 5$) https://fr.aliexpress.com/item/1005005180653105.html
+1|PCB |||(JLCPCB) https://jlcpcb.com
+1|Stencil||(JLCPCB) https://jlcpcb.com
+
+
 
 # Build
 ![BUILD IMG resoldered (1)](https://github.com/user-attachments/assets/6de6897d-e76f-4781-aba1-eee7199d8a09)
