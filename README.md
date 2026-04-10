@@ -130,7 +130,7 @@ Qty	| Part	| Value | link
 1|USB Connector TYPE-C 16PIN 2MD(073)|| https://www.lcsc.com/product-detail/C2765186.html
 ---|---|---|---
 1|WCH-linkE||(Aliexpress - 5$) https://fr.aliexpress.com/item/1005005180653105.html
-1|PCB |||(JLCPCB) https://jlcpcb.com
+1|PCB ||(JLCPCB) https://jlcpcb.com
 1|Stencil||(JLCPCB) https://jlcpcb.com
 
 
