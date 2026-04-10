@@ -113,7 +113,7 @@ Qty	| Part	| Value | link
 1|FPC 8 PINs FPC-05F-8PH20||https://www.lcsc.com/product-detail/C2856797.html
 1|FPC 40 PINs FPC-05F-40PH20||https://www.lcsc.com/product-detail/C2856812.html
 1|MALE HEADER HDR-M 2.54 2x8|2.54mm|https://www.lcsc.com/product-detail/C492425.html
-5|LED 0603 XL-1608UOC-06||C965800|https://www.lcsc.com/product-detail/C965800.html
+5|LED 0603 XL-1608UOC-06||https://www.lcsc.com/product-detail/C965800.html
 1|P CHANNEL MOSFET SI2393DS-T1-GE3||https://www.lcsc.com/product-detail/C5273032.html
 10|Resistor 0402|10K|https://www.lcsc.com/product-detail/C2906861.html
 2|Resistor 0402|22|https://www.lcsc.com/product-detail/C2929994.html
