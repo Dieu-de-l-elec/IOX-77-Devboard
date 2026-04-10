@@ -51,6 +51,12 @@ I'm working on an Arduino® library for the ESP32 C3 in order to easily control 
 
 <img src="PCB/IOX_77_schematic V1.1.svg" alt="SCHEMATIC" width="2300"/>
 
+# Pinout
+
+<img src="PINOUT/IOX_77_1.SVG" alt="PINOUT 1" width="2300"/>
+<img src="PINOUT/IOX_77_2.SVG" alt="PINOUT 2" width="2300"/>
+<img src="PINOUT/IOX_77_3.SVG" alt="PINOUT 3" width="2300"/>
+
 # PCB Layout
 
 <img width="2226" height="1448" alt="PCB EDA" src="https://github.com/user-attachments/assets/695c4f87-e626-4112-a020-438b0de31b02" />
